@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    /* background-color: rgb(10,10,10); */
+    background-image: url("img/michael-demarco-tgLgek8JKY0-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100vw;  
+    background-size: cover;  
+    background-position: center;  
+    
+    color: rgb(240,240,240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    /* color: black; */
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+}
+
+.share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: rgb(0,0,0);
+    /* padding-bottom: 40px; */
+}
+
+/* Setting Max width for container during screen change: */
+.container {
+    
+    padding-top: 120px;
+
+    width: 91%;
+    max-width: 680px; /* max length to cover the length of CONTAINER div */
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* makes buttons columns */
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240,240,240);
+}
+
+.tile {
+    width: 100%;
+    height: 56px;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    opacity: .7;
+}
+
+.tile:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) .2s;
+}
+
+.tile-share-button {
+    margin: 8px;
+    height: 35px;
+    width: 40px;
+    /* border-radius: 20px; */
+    /* background-color: rgb(20,20,20); */
+}
+
+.tile-share-button svg {
+    margin-left: 3px;
+    margin-bottom: 35px;
+    color: rgb(240,240,240)
+}
+
+
+/* profile pic img */
+.image-container {
+    height: 150px; 
+    width: 150px;
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+ /* profile pic img */
+.image-container img {
+    height: 100%; /* stretching out p */
+}
+
+.icon {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
+
